@@ -1,4 +1,4 @@
-package com.shreejacreation.trendify
+package com.shreejacreation.trendify.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,9 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.shreejacreation.trendify.ui.theme.TrendifyTheme
+import com.shreejacreation.trendify.presentation.ui.theme.TrendifyTheme
 
-class MainActivity : ComponentActivity() {
+class TrendifyActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

@@ -1,4 +1,4 @@
-package com.shreejacreation.trendify.ui.theme
+package com.shreejacreation.trendify.presentation.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
